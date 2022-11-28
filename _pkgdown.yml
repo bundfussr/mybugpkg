@@ -1,0 +1,22 @@
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: flatly
+repo:
+  url:
+    home: https://github.com/bunfussr/mybugpkg/
+    source: https://github.com/bunfussr/mybugpkg/blob/main/
+    issue: https://github.com/bunfussr/mybugpkg/issues/
+    user: https://github.com/
+reference:
+- title: A Functions
+  contents:
+  - has_keyword("a_fun")
+
+- title: Derivations for Adding Parameters/Records
+- subtitle: BDS-specific
+  contents:
+  - has_keyword("der_bds_gen")
+  - has_keyword("der_prm_bds_findings")
+
